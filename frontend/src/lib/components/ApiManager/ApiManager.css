@@ -1,0 +1,13 @@
+/* Estilos personalizados para ajustar el texto y reducir tamaño */
+.table th,
+.table td {
+  padding: 0.5rem; /* Reducir padding para hacer la tabla más compacta */
+  font-size: 0.875rem; /* Reducir tamaño de fuente (14px) */
+  overflow-wrap: break-word; /* Romper palabras largas */
+  max-width: 200px; /* Limitar ancho máximo de las celdas */
+}
+
+.table .badge {
+  font-size: 0.75rem; /* Reducir tamaño de los badges */
+  padding: 0.25em 0.5em; /* Ajustar padding de los badges */
+}
